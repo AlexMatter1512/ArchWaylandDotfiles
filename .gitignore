@@ -5,8 +5,17 @@
 !.gitignore
 
 #Except these directories
+!waybar
 !waybar/*
-!hypr/*
+
+!hypr
+!hypr/*.conf
+
+!swayidle
 !swayidle/*
+
+!cava
 !cava/*
+
+!wofi
 !wofi/*

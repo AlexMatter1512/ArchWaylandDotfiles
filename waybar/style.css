@@ -1,0 +1,123 @@
+/*
+ ********************************************
+ *░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*
+ *░░█▀█░█░░░█░█░█▀▀░░░█░█░█░░░▀█▀░█▀▄░█▀█░░*
+ *░░█▀▀░█░░░█░█░▀▀█░░░█░█░█░░░░█░░█▀▄░█▀█░░*
+ *░░▀░░░▀▀▀░▀▀▀░▀▀▀░░░▀▀▀░▀▀▀░░▀░░▀░▀░▀░▀░░*
+ *░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*
+ ********************************************
+ */
+
+* {
+	font-family: Nerd Font Hack;
+	font-size: 16px;
+	/*min-height: 24px;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+window#waybar {
+	/*background: rgba(40, 42, 54, 0.365);*/
+	background: transparent;
+}
+.modules-left{
+	background: #202020;
+	border-radius: 0 0 10px 0;
+}
+.modules-right{
+	background: #202020;
+	border-radius: 0 0 0 10px;
+}
+#workspaces {
+
+	border-radius: 10px;
+	background: #202020;
+	transition: none;
+}
+
+#workspaces button {
+	transition: none;
+	border: none;
+	color: #f8f8f2;
+	background: #202020;
+	font-size: 16px;
+}
+
+#workspaces button.active {
+	color: #9aedfe;
+	border: none;
+}
+
+#workspaces button:hover {
+	transition: none;
+	box-shadow: none;
+	text-shadow: none;
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(120, 120, 120);
+}
+
+#custom-brightness{
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 10px;
+	transition: none;
+	color: #f8f8f2;
+	background: #202020;
+}
+
+#network {
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 10px;
+	transition: none;
+	color: #f8f8f2;
+	background: #202020;
+}
+
+#pulseaudio {
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 10px;
+	transition: none;
+	color: #f8f8f2;
+	background: #202020;
+}
+
+#temperature {
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 10px;
+	transition: none;
+	color: #f8f8f2;
+	background: #202020;
+}
+
+#cpu {
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 10px;
+	transition: none;
+	color: #f8f8f2;
+	background: #202020;
+}
+
+#memory {
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 10px;
+	transition: none;
+	color: #f8f8f2;
+	background: #202020;
+}
+
+#clock {
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 10px;
+	transition: none;
+	color: #f8f8f2;
+	background: #202020;
+}
+

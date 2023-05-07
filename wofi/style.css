@@ -1,0 +1,16 @@
+window {
+    border-radius: 10px;
+}
+#entry{
+    padding: 10px;
+}
+#input{
+}
+#entry:selected {
+    background-color: #262626;
+    border: solid 2px #cccccc;
+    border-radius: 10px;
+}
+#img{
+    margin-right: 10px;
+}

@@ -1,0 +1,11 @@
+show=drun
+allow_images=true
+gtk_dark=true
+no_actions=true
+normal_window=true
+width=15%
+image_size=40
+#hide_search=true
+dynamic_lines=true
+key_hide_search=Tab
+#lines=8
