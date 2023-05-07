@@ -1,0 +1,12 @@
+#ignore everything
+*
+
+#Except gitignore
+!.gitignore
+
+#Except these directories
+!waybar
+!hypr
+!swayidle
+!cava
+!wofi
