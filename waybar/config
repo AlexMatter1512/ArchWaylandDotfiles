@@ -1,4 +1,14 @@
 {
+	
+
+	"layer": "top",
+	"spacing": 10,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": ["wlr/workspaces"],
+	"modules-center": [],
+	"modules-right": ["custom/brightness", "network", "pulseaudio", "temperature", "cpu", "memory", "clock"],
+	
 	"cava": {
 		"cava_config": "$HOME/.config/cava/config",
 		"framerate": 60,
@@ -22,13 +32,6 @@
 					}
 	},
 
-	"layer": "top",
-	"spacing": 10,
-	"modules-left": ["cava", "wlr/workspaces", "tray"],
-	"modules-center": ["cava"],
-	"modules-right": ["custom/screenshot", "custom/brightness", "network", "pulseaudio", "temperature", "cpu", "memory", "clock"],
-	
-	
 	"tray": {
 		"icon-size": 21,
 		"spacing": 10,

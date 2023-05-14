@@ -18,16 +18,17 @@
 }
 
 window#waybar {
-	/*background: rgba(40, 42, 54, 0.365);*/
+	/* background: rgb(0, 38, 255); */
 	background: transparent;
+	margin: 10px;
 }
 .modules-left{
 	background: #202020;
-	border-radius: 0 0 10px 0;
+	border-radius: 10px;
 }
 .modules-right{
 	background: #202020;
-	border-radius: 0 0 0 10px;
+	border-radius: 10px;
 }
 #workspaces {
 
@@ -42,6 +43,7 @@ window#waybar {
 	color: #f8f8f2;
 	background: #202020;
 	font-size: 16px;
+	border-radius: 10px;
 }
 
 #workspaces button.active {
